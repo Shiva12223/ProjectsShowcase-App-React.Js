@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Roboto';
+}
+.body-container {
+  padding: 50px;
+}
+.drop-down {
+  width: 400px;
+  height: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #cbd5e1;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.failure-container img {
+  height: 300px;
+  width: 400px;
+}
+
+.failure-container button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  background-color: #328af2;
+  height: 40px;
+  width: 80px;
+}
+
+.failure-container h1 {
+  color: #475569;
+}
+.failure-container p {
+  color: #475569;
+  font-size: 22px;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.projects-list-items-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 20px;
+  overflow: auto;
+}
